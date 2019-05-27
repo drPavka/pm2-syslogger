@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/drPavka/pm2-syslogger.git"
+    "url": "https://github.com/drPavka/pm2-syslogger.git"
   },
   "author": "",
   "license": "ISC",
