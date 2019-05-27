@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json"
   },
+  "apps": [
+    {
+      "script": "index.js"
+    }
+  ],
   "config": {
     "facility": "local0",
     "error-facility": "local0",
@@ -17,7 +22,7 @@
     "type": "git",
     "url": "https://github.com/drPavka/pm2-syslogger.git"
   },
-  "author": "",
+  "author": "Pavka",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/drPavka/pm2-syslogger/issues"
