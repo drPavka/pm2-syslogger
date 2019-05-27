@@ -1,0 +1,34 @@
+{
+  "name": "pm2-syslogger",
+  "version": "1.0.0",
+  "description": "Pm2 syslog",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "config": {
+    "facility": "local0",
+    "error-facility": "local0",
+    "priority": "info",
+    "error-priority": "err"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drPavka/pm2-syslogger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drPavka/pm2-syslogger/issues"
+  },
+  "homepage": "https://github.com/drPavka/pm2-syslogger#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "pm2": "^3.5.1",
+    "pmx": "^1.6.7",
+    "posix": "^4.1.2"
+  }
+}
