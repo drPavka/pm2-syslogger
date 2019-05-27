@@ -1,8 +1,8 @@
 {
   "name": "pm2-syslogger",
   "version": "1.0.0",
-  "description": "Pm2 syslog",
-  "main": "dist/index.js",
+  "description": "Pm2 syslog utility",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p tsconfig.json"
